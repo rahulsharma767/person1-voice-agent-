@@ -1,0 +1,12 @@
+[project]
+name = "dhwani-voice-runtime"
+version = "0.1.0"
+description = "DHWANI 3.0 - Person 1 voice runtime (LiveKit + Gemini Live + Rime)"
+requires-python = ">=3.10"
+dependencies = [
+    "livekit-agents[google,rime]~=1.5",
+    "python-dotenv>=1.1.1",
+]
+
+# Install with: pip install -e . --break-system-packages
+# or: uv sync
